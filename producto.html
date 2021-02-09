@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Store</title>
+    <link rel="stylesheet" href="css/normalize.css">      <!-- Shift + Alt + flecha abajo para duplicar una línea -->
+    <link rel="preload" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preload" href="css/style.css">
+</head>
+
+<body>
+    
+    <header class="header">
+
+        <a class="header__logo" href="index.html">
+                <img src="img/logo.png" alt="logo">
+        </a>
+
+    </header>
+
+    <!-- Alt + click para posicionar más cursores -->
+    <nav class="navegacion">
+        <a class="navegacion__enlace navegacion__enlace--activo" href="index.html">Shop</a>
+        <a class="navegacion__enlace" href="nosotros.html">About</a>
+    </nav>
+
+    <main class="contenedor">
+        <h1>React JS</h1>
+
+        <div class="camisa">
+            <img class="camisa__imagen" src="img/3.jpg" alt="camisa react">
+
+            <div class="camisa__contenido">
+                <p class="camisa__texto">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat pariatur porro, nostrum labore cumque magni magnam itaque dicta? Aspernatur odit veritatis, exercitationem id libero et consectetur laboriosam quisquam! Aut, commodi!</p>
+                
+                <form class="formulario">
+                    <select class="formulario__campo formulario__campo--cursor">
+                        <option disabled selected> --  Seleccionar talla  -- </option>
+                        <option>Small</option>
+                        <option>Medium</option>
+                        <option>Large</option>
+                        <option>X-large</option>
+                    </select>
+                
+
+                    <input class="formulario__campo" type="number" placeholder="Quantity" min="1">
+
+                    <input class="formulario__submit" type="submit" value="Add to bag">
+                
+                </form>
+
+            </div>
+        </div>
+
+    </main>
+
+    <footer class="footer">
+        <p class="footer__texto"> Frontend Store. Todos los derechos reservados. </p> 
+    </footer>
+
+</body>
+</html>
