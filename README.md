@@ -10,4 +10,4 @@ This is the second website I've built from a Web development course on Udemy. Th
 * MySQL
 
 I've used Netlify to deploy it and you can access with the following link:
-+ frontendstore.netlify.app
++ frontenditstore.netlify.app
